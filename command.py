@@ -33,6 +33,13 @@ export PATH=$PATH:$HADOOP_HOME/bin
 <name>dfs.data.dir</name>
 <value>/home/ubuntu/data/data-datanode1</value>
 </property>
+
+
+
+<property>
+<name>fs.default.name</name>
+<value>hdfs://localhost:9000</value>
+</property>
 <property>
 <name>dfs.datanode.address</name>
 <value>0.0.0.0:50010</value>
